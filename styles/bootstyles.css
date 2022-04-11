@@ -1,0 +1,63 @@
+body {
+    background-color: darkslategray;
+    color: ivory;
+}
+
+.common {
+    position: absolute;
+    color: ivory;
+}
+
+@font-face {
+    font-family: "Futura";
+    src: url(../fonts/futur.ttf);
+}
+
+.font {
+    font-family: "Futura", sans-serif;
+    font-style: normal;
+    color: ivory;
+}
+
+@font-face {
+    font-family: "Wrestle";
+    src: url(../fonts/WRESTLEMANIA.ttf);
+}
+
+.header {
+    top: 5px;
+    left: 40%;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    position:absolute;
+    color: ivory;
+    text-size-adjust: 900px;
+    font-family: "Wrestle", sans-serif;
+    font-size: 220%;
+
+}
+
+.mainbody {
+    top: 114px;
+    left: 114px;
+    bottom: 64px;
+    right: 114px;
+    padding: 50px;
+    color: ivory;
+    font-family: "Futura", sans-serif;
+    font-style: normal;
+}
+
+.footer {
+    bottom: 10px;
+    height: 15px;
+    left: 5px;
+    right: 5px;
+    position: relative;
+    text-align: center;
+    color: ivory;
+    font-family: "Futura", sans-serif;
+    font-style: normal;
+
+}
